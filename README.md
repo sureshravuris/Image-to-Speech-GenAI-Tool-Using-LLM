@@ -1,13 +1,25 @@
 # 🖼️Image to Speech GenAI Tool Using LLM 🌟♨️
 AI tool that generates an Audio short story based on the context of an uploaded image by prompting a GenAI LLM model, Hugging Face AI models together with OpenAI &amp; LangChain. Deployed on Streamlit & Hugging Space Cloud Separately.
 
-## 📢Run App with Streamlit Cloud
+## ▶️Installation
 
-[Launch App On Streamlit](https://image-to-speech-genai-tool-using-llm.streamlit.app/)
+Clone the repository:
 
-## 📢Run App with HuggingFace Space Cloud
+`git clone https://github.com/sureshravuris/Image-to-Speech-GenAI-Tool-Using-LLM.git`
 
-[Launch App On HuggingFace Space](https://huggingface.co/spaces/GurpreetKJ/Image-to-SpeechStory_GenAI-Tool)
+Install the required Python packages:
+
+`pip install -r requirements.txt`
+
+Set up your OpenAI API key & Hugging Face Token by creating a .env file in the root directory of the project with the following contents:
+
+`OPENAI_API_KEY=<your-api-key-here>`
+`HUGGINGFACE_API_TOKEN=<<your-access-token-here>`
+
+Run the Streamlit app:
+
+`streamlit run app.py`
+
 
 
 ## 🎯 Demo:
@@ -66,35 +78,5 @@ You can listen respective audio file of this test image on respective `img-audio
 - Deployed Gen AI App on streamlit cloud and Hugging Space
 
 ![Demo 2: Picnic Vaction Test Image Output](img-audio/PicnicOutput.jpg)
-
-
-## ▶️Installation
-
-Clone the repository:
-
-`git clone https://github.com/GURPREETKAURJETHRA/Image-to-Speech-GenAI-Tool-Using-LLM.git`
-
-Install the required Python packages:
-
-`pip install -r requirements.txt`
-
-Set up your OpenAI API key & Hugging Face Token by creating a .env file in the root directory of the project with the following contents:
-
-`OPENAI_API_KEY=<your-api-key-here>`
-`HUGGINGFACE_API_TOKEN=<<your-access-token-here>`
-
-Run the Streamlit app:
-
-`streamlit run app.py`
-
-
-## ©️ License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
----
-
-#### **If you like this LLM Project do drop ⭐ to this repo and Contributions are welcome! If you have any suggestions for improving this AI Img-Speech Converter, please submit a pull request.💁**
-#### Follow me on [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gurpreetkaurjethra/) &nbsp; [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/GURPREETKAURJETHRA/)
 
 ---
